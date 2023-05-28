@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bc3d"
+    android:orientation="vertical"
+    tools:context=".ShowActivity">
+
+    <Button
+        android:id="@+id/btnZara"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/zara"
+        android:alpha="0.7"
+        android:background="@color/pb_03"/>
+
+    <Button
+        android:id="@+id/btnMassimoDutti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/massimo_dutti"
+        android:alpha="0.7"
+        android:background="@color/pb_04"/>
+
+    <Button
+        android:id="@+id/btnBershka"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/bershka"
+        android:alpha="0.7"
+        android:background="@color/pb_02"/>
+
+    <Button
+        android:id="@+id/btnPull"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/pull"
+        android:alpha="0.7"
+        android:background="@color/pb_01"/>
+
+    <Button
+        android:id="@+id/btnStra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/stra"
+        android:alpha="0.7"
+        android:background="@color/pb_03"/>
+
+    <Button
+        android:id="@+id/btnLefties"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/lefties"
+        android:alpha="0.7"
+        android:background="@color/pb_04"/>
+
+    <Button
+        android:id="@+id/btnMore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="..."
+        android:textSize="60px"
+        android:textColor="@color/black"
+        android:background="@color/pb_02"/>
+
+</LinearLayout>

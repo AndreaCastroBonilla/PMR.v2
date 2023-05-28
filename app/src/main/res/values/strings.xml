@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">MyCloset</string>
+    <string name="item1_nav">Closet</string>
+    <string name="item2_nav">Ethernet</string>
+    <string name="item3_nav">Wish List</string>
+    <string name="item4_nav">Filter</string>
+    <string name="item5_nav">Map</string>
+    <string name="item6_nav">Weather</string>
+
+    <string name="titulo_nv">What will you wear today?</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+    <string name="menu_registro">Añadir prenda</string>
+
+    <string name="ac3_btn">SAVE</string>
+    <string name="ac3_shopName">Shop name</string>
+    <string name="ac3_desc">Decription</string>
+    <string name="ac3_price">Price</string>
+
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.ComponentesMaterialDesign.MainActivity">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/navItem1"
+            android:icon="@drawable/hanger32x32black"
+            android:title="@string/item1_nav" />
+
+        <item android:id="@+id/navItem3"
+            android:icon="@drawable/heart32x32round"
+            android:title="@string/item3_nav" />
+
+        <item android:id="@+id/navItem4"
+            android:icon="@drawable/filter32x32black"
+            android:title="@string/item4_nav" />
+
+        <item android:id="@+id/navItem5"
+            android:icon="@drawable/pin32x32"
+            android:title="@string/item5_nav" />
+
+        <item android:id="@+id/navItem6"
+            android:icon="@drawable/cloudy32x32black"
+            android:title="@string/item6_nav" />
+    </group>
+
+</menu>
