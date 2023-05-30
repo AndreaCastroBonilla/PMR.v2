@@ -29,7 +29,7 @@ import com.google.android.material.navigation.NavigationView;
 public class MainActivity extends AppCompatActivity {
 
     // ---------> ATTRIBUTES & CONSTANS <---------
-    ActivityMainBinding binding;
+    private ActivityMainBinding binding;
     private final static int CONT_ACTIVIDAD = 0; // activity id
     private final static int REQUEST_PERMISSION_CAMERA = 100;
     private final static int REQUEST_IMAGE_CAMERA = 101; // activity id
@@ -130,9 +130,9 @@ public class MainActivity extends AppCompatActivity {
             if(resultCode == Activity.RESULT_OK) {
                 Bitmap bitmap = (Bitmap) data.getExtras().get("data");
                 picture.setImageBitmap(bitmap);
-               // GridAdapter gridAdapter = new GridAdapter(MainActivity.this, bitmap);
+                // GridAdapter gridAdapter = new GridAdapter(MainActivity.this, bitmap);
                 // gridView.setAdapter(gridAdapter);
-                Log.i("TAG", "rasult:" + bitmap);
+                Log.i("TAG", "result:" + bitmap);
             }
         }
         super.onActivityResult(requestCode, resultCode, data);
